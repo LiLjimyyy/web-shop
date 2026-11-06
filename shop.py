@@ -13,4 +13,3 @@ def find_by_name(products, text):
 # wip 2
 # A
 # A
-def add_tax(price): return price * 1.1
