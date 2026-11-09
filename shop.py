@@ -6,10 +6,14 @@ class Product:
 
 def find_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
+
+def apply_discount(price, percent):
+    return price * (100 - percent) / 10
+
 # note
 # one
 # two
 # wip 1
 # wip 2
-# A
+# Agi
 # A
