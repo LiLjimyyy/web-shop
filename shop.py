@@ -5,3 +5,6 @@ class Product:
         self.sku = sku
         self.name = name
         self.price = price
+
+    def search_by_name(products, text):
+        return [p for p in products if text.lower() in p.name.lower()]
