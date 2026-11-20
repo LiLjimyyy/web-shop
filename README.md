@@ -1,3 +1,4 @@
 # web-shop
 # hello
-An online shop for learning Git
+A small online shop written in Python
+Docs line
