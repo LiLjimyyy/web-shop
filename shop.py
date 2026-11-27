@@ -16,7 +16,7 @@ def add_tax(price, rate=0.15):
     return price * (1 + rate)
 
 def apply_coupon(price):
-    return price - 5
+    return max(price -5 , 0)
 
 # note
 # one
